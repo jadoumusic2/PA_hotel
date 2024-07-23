@@ -1,0 +1,78 @@
+
+
+.book {
+  padding: 50px 0;
+  margin-top: 50px;
+	
+}
+
+.box h3{
+
+margin-top : 20px }
+
+
+.container {
+  background-color: rgba(255,255,255,0.7);
+}
+
+.box,.search {
+  flex: 1;
+  max-width: 250px;
+ 
+ 
+}
+header{
+  position: fixed;
+}
+
+.box label {
+
+  color :#8c8383;
+}
+
+label ,.search{
+  display: block;
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  width: 250%;
+  padding: 20px;
+  border: 1px solid #dad0d0;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: dodgerblue;
+  outline: none;
+}
+  
+.search {
+  margin-top: 20px;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.btn-reserve {
+  background-color: dodgerblue;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+ 
+
+}
+
+.btn-reserve:hover {
+  
+  background-color: #212529;
+}

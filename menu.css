@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    
+    width: 30%;
+    margin: 0 auto;
+}
+
+.menu-title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+li:nth-child(even) {
+    background-color: #f2f2f2;
+}

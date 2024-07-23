@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+  }
+  .section__container {
+    
+    max-width:1200px;
+    margin: 50px auto 0;
+    padding: 5rem 1rem;
+    text-align:start;
+    margin-bottom: 50px;
+   
+  
+  } 
+
+  .fonds img {
+    width: 100%;
+    height: auto;
+    
+  }
+
+  .section__container h2{
+    text-align: center;
+  }
+
+
+  .section__subheader {
+    margin-bottom: 0.5rem;
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    
+  }
+
+  .room__grid {
+    width: 150rem;
+    margin-top : 1rem;
+    display: flex;
+    flex-direction: column;
+   
+    
+  }
+
+  .room__card__details {
+    display: grid;
+    place-items: center; 
+
+  
+  } 
+  
+  .room__content {
+    text-align: center; 
+  }
+  
+  .room__card__details > div {
+    margin-bottom: 1rem; 
+  }
+  
+  
+  .room__card__details > div {
+    margin-bottom: 1rem; 
+  }
+
+  
+
+  .room__content{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .room__content h3 {
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-130%, 250%); 
+  }
+
+  .room__content a  {
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-160%, 215%); 
+    width: 100px;
+    height: auto;
+  }
+
+  .room__content h4  {
+    width: auto;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(90%, -145%); 
+  }
+
+  .room__content2 h4 { 
+    transform: translate(200%, -145%);
+
+  }
+ 
+
+  .room__content2 p  {
+    margin: 0;
+    width: auto;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(30%, 10%); 
+  
+  }
+
+  .room__card__details div{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ 
+
+.room__card{
+
+   
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    height: 300px;
+}
+
+.room__card h4{
+align-items: center;
+
+
+}
+.room__card img {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .room__card__details {
+
+    
+    padding: 1.5rem;
+    background-color: #f9f9f9; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+ 
+  
+    
+}
+
+
+
+p {
+align-items: center;
+}
+
+.col-md-6 div {
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+.btn {
+  height: 50px;
+
+}
+
+footer{
+  margin-top: 20px;
+}
+
+

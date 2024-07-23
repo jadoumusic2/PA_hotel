@@ -1,0 +1,52 @@
+body {
+    margin : 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coordonnées {
+    display: flex;
+    justify-content: space-around; 
+    color: rgb(158, 138, 26); 
+    margin-bottom: 30px;
+}
+
+.coordonnées a {
+    color: rgb(158, 138, 26); 
+    text-decoration: none;
+}
+
+.coordonnées p {
+    margin: 0%;
+}
+
+.reseau {
+    display: flex;
+    justify-content: center; 
+}
+
+.reseau img {
+    height: 60px; 
+}
+
+footer {
+    bottom:0;
+    width: 100%;
+}
+
+.bas {
+    background-color: rgb(27, 26, 26);
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bas a {
+    color: rgb(158, 138, 26); 
+    text-decoration: none;
+}
